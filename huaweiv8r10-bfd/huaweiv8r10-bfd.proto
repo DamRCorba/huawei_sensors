@@ -9,7 +9,7 @@ syntax = "proto3";
 // revision "2013-01-01"
 // namespace "http://www.huawei.com/netconf/vrp/huawei-bfd"
 
-package huawei_v8r10_bfd;
+package huaweiv8r10_bfd;
 
 message Bfd {
 }
