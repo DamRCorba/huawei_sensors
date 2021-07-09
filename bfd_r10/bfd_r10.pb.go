@@ -2,9 +2,9 @@
 // versions:
 // 	protoc-gen-go v1.25.0-devel
 // 	protoc        v3.14.0
-// source: huaweiv8r10-bfd.proto
+// source: bfd_r10.proto
 
-package huaweiv8r10_bfd
+package bfd_r10
 
 import (
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
@@ -29,7 +29,7 @@ type Bfd struct {
 func (x *Bfd) Reset() {
 	*x = Bfd{}
 	if protoimpl.UnsafeEnabled {
-		mi := &file_huaweiv8r10_bfd_proto_msgTypes[0]
+		mi := &file_bfd_r10_proto_msgTypes[0]
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		ms.StoreMessageInfo(mi)
 	}
@@ -42,7 +42,7 @@ func (x *Bfd) String() string {
 func (*Bfd) ProtoMessage() {}
 
 func (x *Bfd) ProtoReflect() protoreflect.Message {
-	mi := &file_huaweiv8r10_bfd_proto_msgTypes[0]
+	mi := &file_bfd_r10_proto_msgTypes[0]
 	if protoimpl.UnsafeEnabled && x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -55,7 +55,7 @@ func (x *Bfd) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use Bfd.ProtoReflect.Descriptor instead.
 func (*Bfd) Descriptor() ([]byte, []int) {
-	return file_huaweiv8r10_bfd_proto_rawDescGZIP(), []int{0}
+	return file_bfd_r10_proto_rawDescGZIP(), []int{0}
 }
 
 type HwBfdPWSessDown struct {
@@ -77,7 +77,7 @@ type HwBfdPWSessDown struct {
 func (x *HwBfdPWSessDown) Reset() {
 	*x = HwBfdPWSessDown{}
 	if protoimpl.UnsafeEnabled {
-		mi := &file_huaweiv8r10_bfd_proto_msgTypes[1]
+		mi := &file_bfd_r10_proto_msgTypes[1]
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		ms.StoreMessageInfo(mi)
 	}
@@ -90,7 +90,7 @@ func (x *HwBfdPWSessDown) String() string {
 func (*HwBfdPWSessDown) ProtoMessage() {}
 
 func (x *HwBfdPWSessDown) ProtoReflect() protoreflect.Message {
-	mi := &file_huaweiv8r10_bfd_proto_msgTypes[1]
+	mi := &file_bfd_r10_proto_msgTypes[1]
 	if protoimpl.UnsafeEnabled && x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -103,7 +103,7 @@ func (x *HwBfdPWSessDown) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use HwBfdPWSessDown.ProtoReflect.Descriptor instead.
 func (*HwBfdPWSessDown) Descriptor() ([]byte, []int) {
-	return file_huaweiv8r10_bfd_proto_rawDescGZIP(), []int{1}
+	return file_bfd_r10_proto_rawDescGZIP(), []int{1}
 }
 
 func (x *HwBfdPWSessDown) GetBindType() string {
@@ -188,7 +188,7 @@ type HwBfdPWSessUp struct {
 func (x *HwBfdPWSessUp) Reset() {
 	*x = HwBfdPWSessUp{}
 	if protoimpl.UnsafeEnabled {
-		mi := &file_huaweiv8r10_bfd_proto_msgTypes[2]
+		mi := &file_bfd_r10_proto_msgTypes[2]
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		ms.StoreMessageInfo(mi)
 	}
@@ -201,7 +201,7 @@ func (x *HwBfdPWSessUp) String() string {
 func (*HwBfdPWSessUp) ProtoMessage() {}
 
 func (x *HwBfdPWSessUp) ProtoReflect() protoreflect.Message {
-	mi := &file_huaweiv8r10_bfd_proto_msgTypes[2]
+	mi := &file_bfd_r10_proto_msgTypes[2]
 	if protoimpl.UnsafeEnabled && x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -214,7 +214,7 @@ func (x *HwBfdPWSessUp) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use HwBfdPWSessUp.ProtoReflect.Descriptor instead.
 func (*HwBfdPWSessUp) Descriptor() ([]byte, []int) {
-	return file_huaweiv8r10_bfd_proto_rawDescGZIP(), []int{2}
+	return file_bfd_r10_proto_rawDescGZIP(), []int{2}
 }
 
 func (x *HwBfdPWSessUp) GetBindType() string {
@@ -295,7 +295,7 @@ type HwBfdSessApOperFailed struct {
 func (x *HwBfdSessApOperFailed) Reset() {
 	*x = HwBfdSessApOperFailed{}
 	if protoimpl.UnsafeEnabled {
-		mi := &file_huaweiv8r10_bfd_proto_msgTypes[3]
+		mi := &file_bfd_r10_proto_msgTypes[3]
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		ms.StoreMessageInfo(mi)
 	}
@@ -308,7 +308,7 @@ func (x *HwBfdSessApOperFailed) String() string {
 func (*HwBfdSessApOperFailed) ProtoMessage() {}
 
 func (x *HwBfdSessApOperFailed) ProtoReflect() protoreflect.Message {
-	mi := &file_huaweiv8r10_bfd_proto_msgTypes[3]
+	mi := &file_bfd_r10_proto_msgTypes[3]
 	if protoimpl.UnsafeEnabled && x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -321,7 +321,7 @@ func (x *HwBfdSessApOperFailed) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use HwBfdSessApOperFailed.ProtoReflect.Descriptor instead.
 func (*HwBfdSessApOperFailed) Descriptor() ([]byte, []int) {
-	return file_huaweiv8r10_bfd_proto_rawDescGZIP(), []int{3}
+	return file_bfd_r10_proto_rawDescGZIP(), []int{3}
 }
 
 func (x *HwBfdSessApOperFailed) GetApid() uint32 {
@@ -373,7 +373,7 @@ type HwBfdSessCfgRemoteFail struct {
 func (x *HwBfdSessCfgRemoteFail) Reset() {
 	*x = HwBfdSessCfgRemoteFail{}
 	if protoimpl.UnsafeEnabled {
-		mi := &file_huaweiv8r10_bfd_proto_msgTypes[4]
+		mi := &file_bfd_r10_proto_msgTypes[4]
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		ms.StoreMessageInfo(mi)
 	}
@@ -386,7 +386,7 @@ func (x *HwBfdSessCfgRemoteFail) String() string {
 func (*HwBfdSessCfgRemoteFail) ProtoMessage() {}
 
 func (x *HwBfdSessCfgRemoteFail) ProtoReflect() protoreflect.Message {
-	mi := &file_huaweiv8r10_bfd_proto_msgTypes[4]
+	mi := &file_bfd_r10_proto_msgTypes[4]
 	if protoimpl.UnsafeEnabled && x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -399,7 +399,7 @@ func (x *HwBfdSessCfgRemoteFail) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use HwBfdSessCfgRemoteFail.ProtoReflect.Descriptor instead.
 func (*HwBfdSessCfgRemoteFail) Descriptor() ([]byte, []int) {
-	return file_huaweiv8r10_bfd_proto_rawDescGZIP(), []int{4}
+	return file_bfd_r10_proto_rawDescGZIP(), []int{4}
 }
 
 func (x *HwBfdSessCfgRemoteFail) GetConfigurationName() string {
@@ -460,7 +460,7 @@ type HwBfdSessDown struct {
 func (x *HwBfdSessDown) Reset() {
 	*x = HwBfdSessDown{}
 	if protoimpl.UnsafeEnabled {
-		mi := &file_huaweiv8r10_bfd_proto_msgTypes[5]
+		mi := &file_bfd_r10_proto_msgTypes[5]
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		ms.StoreMessageInfo(mi)
 	}
@@ -473,7 +473,7 @@ func (x *HwBfdSessDown) String() string {
 func (*HwBfdSessDown) ProtoMessage() {}
 
 func (x *HwBfdSessDown) ProtoReflect() protoreflect.Message {
-	mi := &file_huaweiv8r10_bfd_proto_msgTypes[5]
+	mi := &file_bfd_r10_proto_msgTypes[5]
 	if protoimpl.UnsafeEnabled && x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -486,7 +486,7 @@ func (x *HwBfdSessDown) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use HwBfdSessDown.ProtoReflect.Descriptor instead.
 func (*HwBfdSessDown) Descriptor() ([]byte, []int) {
-	return file_huaweiv8r10_bfd_proto_rawDescGZIP(), []int{5}
+	return file_bfd_r10_proto_rawDescGZIP(), []int{5}
 }
 
 func (x *HwBfdSessDown) GetBindIfIndex() uint32 {
@@ -647,7 +647,7 @@ type HwBfdSessDownTrap struct {
 func (x *HwBfdSessDownTrap) Reset() {
 	*x = HwBfdSessDownTrap{}
 	if protoimpl.UnsafeEnabled {
-		mi := &file_huaweiv8r10_bfd_proto_msgTypes[6]
+		mi := &file_bfd_r10_proto_msgTypes[6]
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		ms.StoreMessageInfo(mi)
 	}
@@ -660,7 +660,7 @@ func (x *HwBfdSessDownTrap) String() string {
 func (*HwBfdSessDownTrap) ProtoMessage() {}
 
 func (x *HwBfdSessDownTrap) ProtoReflect() protoreflect.Message {
-	mi := &file_huaweiv8r10_bfd_proto_msgTypes[6]
+	mi := &file_bfd_r10_proto_msgTypes[6]
 	if protoimpl.UnsafeEnabled && x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -673,7 +673,7 @@ func (x *HwBfdSessDownTrap) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use HwBfdSessDownTrap.ProtoReflect.Descriptor instead.
 func (*HwBfdSessDownTrap) Descriptor() ([]byte, []int) {
-	return file_huaweiv8r10_bfd_proto_rawDescGZIP(), []int{6}
+	return file_bfd_r10_proto_rawDescGZIP(), []int{6}
 }
 
 func (x *HwBfdSessDownTrap) GetBindType() string {
@@ -743,7 +743,7 @@ type HwBfdSessReachLimit struct {
 func (x *HwBfdSessReachLimit) Reset() {
 	*x = HwBfdSessReachLimit{}
 	if protoimpl.UnsafeEnabled {
-		mi := &file_huaweiv8r10_bfd_proto_msgTypes[7]
+		mi := &file_bfd_r10_proto_msgTypes[7]
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		ms.StoreMessageInfo(mi)
 	}
@@ -756,7 +756,7 @@ func (x *HwBfdSessReachLimit) String() string {
 func (*HwBfdSessReachLimit) ProtoMessage() {}
 
 func (x *HwBfdSessReachLimit) ProtoReflect() protoreflect.Message {
-	mi := &file_huaweiv8r10_bfd_proto_msgTypes[7]
+	mi := &file_bfd_r10_proto_msgTypes[7]
 	if protoimpl.UnsafeEnabled && x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -769,7 +769,7 @@ func (x *HwBfdSessReachLimit) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use HwBfdSessReachLimit.ProtoReflect.Descriptor instead.
 func (*HwBfdSessReachLimit) Descriptor() ([]byte, []int) {
-	return file_huaweiv8r10_bfd_proto_rawDescGZIP(), []int{7}
+	return file_bfd_r10_proto_rawDescGZIP(), []int{7}
 }
 
 func (x *HwBfdSessReachLimit) GetTotalSessionLimit() uint32 {
@@ -792,7 +792,7 @@ type HwBfdSessReachLimitBindIf struct {
 func (x *HwBfdSessReachLimitBindIf) Reset() {
 	*x = HwBfdSessReachLimitBindIf{}
 	if protoimpl.UnsafeEnabled {
-		mi := &file_huaweiv8r10_bfd_proto_msgTypes[8]
+		mi := &file_bfd_r10_proto_msgTypes[8]
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		ms.StoreMessageInfo(mi)
 	}
@@ -805,7 +805,7 @@ func (x *HwBfdSessReachLimitBindIf) String() string {
 func (*HwBfdSessReachLimitBindIf) ProtoMessage() {}
 
 func (x *HwBfdSessReachLimitBindIf) ProtoReflect() protoreflect.Message {
-	mi := &file_huaweiv8r10_bfd_proto_msgTypes[8]
+	mi := &file_bfd_r10_proto_msgTypes[8]
 	if protoimpl.UnsafeEnabled && x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -818,7 +818,7 @@ func (x *HwBfdSessReachLimitBindIf) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use HwBfdSessReachLimitBindIf.ProtoReflect.Descriptor instead.
 func (*HwBfdSessReachLimitBindIf) Descriptor() ([]byte, []int) {
-	return file_huaweiv8r10_bfd_proto_rawDescGZIP(), []int{8}
+	return file_bfd_r10_proto_rawDescGZIP(), []int{8}
 }
 
 func (x *HwBfdSessReachLimitBindIf) GetConfigurationName() string {
@@ -872,7 +872,7 @@ type HwBfdSessUp struct {
 func (x *HwBfdSessUp) Reset() {
 	*x = HwBfdSessUp{}
 	if protoimpl.UnsafeEnabled {
-		mi := &file_huaweiv8r10_bfd_proto_msgTypes[9]
+		mi := &file_bfd_r10_proto_msgTypes[9]
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		ms.StoreMessageInfo(mi)
 	}
@@ -885,7 +885,7 @@ func (x *HwBfdSessUp) String() string {
 func (*HwBfdSessUp) ProtoMessage() {}
 
 func (x *HwBfdSessUp) ProtoReflect() protoreflect.Message {
-	mi := &file_huaweiv8r10_bfd_proto_msgTypes[9]
+	mi := &file_bfd_r10_proto_msgTypes[9]
 	if protoimpl.UnsafeEnabled && x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -898,7 +898,7 @@ func (x *HwBfdSessUp) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use HwBfdSessUp.ProtoReflect.Descriptor instead.
 func (*HwBfdSessUp) Descriptor() ([]byte, []int) {
-	return file_huaweiv8r10_bfd_proto_rawDescGZIP(), []int{9}
+	return file_bfd_r10_proto_rawDescGZIP(), []int{9}
 }
 
 func (x *HwBfdSessUp) GetBindIfIndex() uint32 {
@@ -1059,7 +1059,7 @@ type HwBfdSessUpTrap struct {
 func (x *HwBfdSessUpTrap) Reset() {
 	*x = HwBfdSessUpTrap{}
 	if protoimpl.UnsafeEnabled {
-		mi := &file_huaweiv8r10_bfd_proto_msgTypes[10]
+		mi := &file_bfd_r10_proto_msgTypes[10]
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		ms.StoreMessageInfo(mi)
 	}
@@ -1072,7 +1072,7 @@ func (x *HwBfdSessUpTrap) String() string {
 func (*HwBfdSessUpTrap) ProtoMessage() {}
 
 func (x *HwBfdSessUpTrap) ProtoReflect() protoreflect.Message {
-	mi := &file_huaweiv8r10_bfd_proto_msgTypes[10]
+	mi := &file_bfd_r10_proto_msgTypes[10]
 	if protoimpl.UnsafeEnabled && x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1085,7 +1085,7 @@ func (x *HwBfdSessUpTrap) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use HwBfdSessUpTrap.ProtoReflect.Descriptor instead.
 func (*HwBfdSessUpTrap) Descriptor() ([]byte, []int) {
-	return file_huaweiv8r10_bfd_proto_rawDescGZIP(), []int{10}
+	return file_bfd_r10_proto_rawDescGZIP(), []int{10}
 }
 
 func (x *HwBfdSessUpTrap) GetBindType() string {
@@ -1158,7 +1158,7 @@ type HwBfdv6MultiHopSessDownTrap struct {
 func (x *HwBfdv6MultiHopSessDownTrap) Reset() {
 	*x = HwBfdv6MultiHopSessDownTrap{}
 	if protoimpl.UnsafeEnabled {
-		mi := &file_huaweiv8r10_bfd_proto_msgTypes[11]
+		mi := &file_bfd_r10_proto_msgTypes[11]
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		ms.StoreMessageInfo(mi)
 	}
@@ -1171,7 +1171,7 @@ func (x *HwBfdv6MultiHopSessDownTrap) String() string {
 func (*HwBfdv6MultiHopSessDownTrap) ProtoMessage() {}
 
 func (x *HwBfdv6MultiHopSessDownTrap) ProtoReflect() protoreflect.Message {
-	mi := &file_huaweiv8r10_bfd_proto_msgTypes[11]
+	mi := &file_bfd_r10_proto_msgTypes[11]
 	if protoimpl.UnsafeEnabled && x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1184,7 +1184,7 @@ func (x *HwBfdv6MultiHopSessDownTrap) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use HwBfdv6MultiHopSessDownTrap.ProtoReflect.Descriptor instead.
 func (*HwBfdv6MultiHopSessDownTrap) Descriptor() ([]byte, []int) {
-	return file_huaweiv8r10_bfd_proto_rawDescGZIP(), []int{11}
+	return file_bfd_r10_proto_rawDescGZIP(), []int{11}
 }
 
 func (x *HwBfdv6MultiHopSessDownTrap) GetPeerIPv6Address() string {
@@ -1229,7 +1229,7 @@ type HwBfdv6MultiHopSessUpTrap struct {
 func (x *HwBfdv6MultiHopSessUpTrap) Reset() {
 	*x = HwBfdv6MultiHopSessUpTrap{}
 	if protoimpl.UnsafeEnabled {
-		mi := &file_huaweiv8r10_bfd_proto_msgTypes[12]
+		mi := &file_bfd_r10_proto_msgTypes[12]
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		ms.StoreMessageInfo(mi)
 	}
@@ -1242,7 +1242,7 @@ func (x *HwBfdv6MultiHopSessUpTrap) String() string {
 func (*HwBfdv6MultiHopSessUpTrap) ProtoMessage() {}
 
 func (x *HwBfdv6MultiHopSessUpTrap) ProtoReflect() protoreflect.Message {
-	mi := &file_huaweiv8r10_bfd_proto_msgTypes[12]
+	mi := &file_bfd_r10_proto_msgTypes[12]
 	if protoimpl.UnsafeEnabled && x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1255,7 +1255,7 @@ func (x *HwBfdv6MultiHopSessUpTrap) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use HwBfdv6MultiHopSessUpTrap.ProtoReflect.Descriptor instead.
 func (*HwBfdv6MultiHopSessUpTrap) Descriptor() ([]byte, []int) {
-	return file_huaweiv8r10_bfd_proto_rawDescGZIP(), []int{12}
+	return file_bfd_r10_proto_rawDescGZIP(), []int{12}
 }
 
 func (x *HwBfdv6MultiHopSessUpTrap) GetPeerIPv6Address() string {
@@ -1300,7 +1300,7 @@ type HwBfdv6SingleHopSessDownTrap struct {
 func (x *HwBfdv6SingleHopSessDownTrap) Reset() {
 	*x = HwBfdv6SingleHopSessDownTrap{}
 	if protoimpl.UnsafeEnabled {
-		mi := &file_huaweiv8r10_bfd_proto_msgTypes[13]
+		mi := &file_bfd_r10_proto_msgTypes[13]
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		ms.StoreMessageInfo(mi)
 	}
@@ -1313,7 +1313,7 @@ func (x *HwBfdv6SingleHopSessDownTrap) String() string {
 func (*HwBfdv6SingleHopSessDownTrap) ProtoMessage() {}
 
 func (x *HwBfdv6SingleHopSessDownTrap) ProtoReflect() protoreflect.Message {
-	mi := &file_huaweiv8r10_bfd_proto_msgTypes[13]
+	mi := &file_bfd_r10_proto_msgTypes[13]
 	if protoimpl.UnsafeEnabled && x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1326,7 +1326,7 @@ func (x *HwBfdv6SingleHopSessDownTrap) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use HwBfdv6SingleHopSessDownTrap.ProtoReflect.Descriptor instead.
 func (*HwBfdv6SingleHopSessDownTrap) Descriptor() ([]byte, []int) {
-	return file_huaweiv8r10_bfd_proto_rawDescGZIP(), []int{13}
+	return file_bfd_r10_proto_rawDescGZIP(), []int{13}
 }
 
 func (x *HwBfdv6SingleHopSessDownTrap) GetPeerIPv6Address() string {
@@ -1371,7 +1371,7 @@ type HwBfdv6SingleHopSessUpTrap struct {
 func (x *HwBfdv6SingleHopSessUpTrap) Reset() {
 	*x = HwBfdv6SingleHopSessUpTrap{}
 	if protoimpl.UnsafeEnabled {
-		mi := &file_huaweiv8r10_bfd_proto_msgTypes[14]
+		mi := &file_bfd_r10_proto_msgTypes[14]
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		ms.StoreMessageInfo(mi)
 	}
@@ -1384,7 +1384,7 @@ func (x *HwBfdv6SingleHopSessUpTrap) String() string {
 func (*HwBfdv6SingleHopSessUpTrap) ProtoMessage() {}
 
 func (x *HwBfdv6SingleHopSessUpTrap) ProtoReflect() protoreflect.Message {
-	mi := &file_huaweiv8r10_bfd_proto_msgTypes[14]
+	mi := &file_bfd_r10_proto_msgTypes[14]
 	if protoimpl.UnsafeEnabled && x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1397,7 +1397,7 @@ func (x *HwBfdv6SingleHopSessUpTrap) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use HwBfdv6SingleHopSessUpTrap.ProtoReflect.Descriptor instead.
 func (*HwBfdv6SingleHopSessUpTrap) Descriptor() ([]byte, []int) {
-	return file_huaweiv8r10_bfd_proto_rawDescGZIP(), []int{14}
+	return file_bfd_r10_proto_rawDescGZIP(), []int{14}
 }
 
 func (x *HwBfdv6SingleHopSessUpTrap) GetPeerIPv6Address() string {
@@ -1428,12 +1428,11 @@ func (x *HwBfdv6SingleHopSessUpTrap) GetVlanID() int32 {
 	return 0
 }
 
-var File_huaweiv8r10_bfd_proto protoreflect.FileDescriptor
+var File_bfd_r10_proto protoreflect.FileDescriptor
 
-var file_huaweiv8r10_bfd_proto_rawDesc = []byte{
-	0x0a, 0x15, 0x68, 0x75, 0x61, 0x77, 0x65, 0x69, 0x76, 0x38, 0x72, 0x31, 0x30, 0x2d, 0x62, 0x66,
-	0x64, 0x2e, 0x70, 0x72, 0x6f, 0x74, 0x6f, 0x12, 0x0f, 0x68, 0x75, 0x61, 0x77, 0x65, 0x69, 0x76,
-	0x38, 0x72, 0x31, 0x30, 0x5f, 0x62, 0x66, 0x64, 0x22, 0x05, 0x0a, 0x03, 0x42, 0x66, 0x64, 0x22,
+var file_bfd_r10_proto_rawDesc = []byte{
+	0x0a, 0x0d, 0x62, 0x66, 0x64, 0x5f, 0x72, 0x31, 0x30, 0x2e, 0x70, 0x72, 0x6f, 0x74, 0x6f, 0x12,
+	0x07, 0x62, 0x66, 0x64, 0x5f, 0x72, 0x31, 0x30, 0x22, 0x05, 0x0a, 0x03, 0x42, 0x66, 0x64, 0x22,
 	0xb3, 0x02, 0x0a, 0x0f, 0x48, 0x77, 0x42, 0x66, 0x64, 0x50, 0x57, 0x53, 0x65, 0x73, 0x73, 0x44,
 	0x6f, 0x77, 0x6e, 0x12, 0x1a, 0x0a, 0x08, 0x42, 0x69, 0x6e, 0x64, 0x54, 0x79, 0x70, 0x65, 0x18,
 	0x01, 0x20, 0x01, 0x28, 0x09, 0x52, 0x08, 0x42, 0x69, 0x6e, 0x64, 0x54, 0x79, 0x70, 0x65, 0x12,
@@ -1678,36 +1677,36 @@ var file_huaweiv8r10_bfd_proto_rawDesc = []byte{
 }
 
 var (
-	file_huaweiv8r10_bfd_proto_rawDescOnce sync.Once
-	file_huaweiv8r10_bfd_proto_rawDescData = file_huaweiv8r10_bfd_proto_rawDesc
+	file_bfd_r10_proto_rawDescOnce sync.Once
+	file_bfd_r10_proto_rawDescData = file_bfd_r10_proto_rawDesc
 )
 
-func file_huaweiv8r10_bfd_proto_rawDescGZIP() []byte {
-	file_huaweiv8r10_bfd_proto_rawDescOnce.Do(func() {
-		file_huaweiv8r10_bfd_proto_rawDescData = protoimpl.X.CompressGZIP(file_huaweiv8r10_bfd_proto_rawDescData)
+func file_bfd_r10_proto_rawDescGZIP() []byte {
+	file_bfd_r10_proto_rawDescOnce.Do(func() {
+		file_bfd_r10_proto_rawDescData = protoimpl.X.CompressGZIP(file_bfd_r10_proto_rawDescData)
 	})
-	return file_huaweiv8r10_bfd_proto_rawDescData
+	return file_bfd_r10_proto_rawDescData
 }
 
-var file_huaweiv8r10_bfd_proto_msgTypes = make([]protoimpl.MessageInfo, 15)
-var file_huaweiv8r10_bfd_proto_goTypes = []interface{}{
-	(*Bfd)(nil),                          // 0: huaweiv8r10_bfd.Bfd
-	(*HwBfdPWSessDown)(nil),              // 1: huaweiv8r10_bfd.HwBfdPWSessDown
-	(*HwBfdPWSessUp)(nil),                // 2: huaweiv8r10_bfd.HwBfdPWSessUp
-	(*HwBfdSessApOperFailed)(nil),        // 3: huaweiv8r10_bfd.HwBfdSessApOperFailed
-	(*HwBfdSessCfgRemoteFail)(nil),       // 4: huaweiv8r10_bfd.HwBfdSessCfgRemoteFail
-	(*HwBfdSessDown)(nil),                // 5: huaweiv8r10_bfd.HwBfdSessDown
-	(*HwBfdSessDownTrap)(nil),            // 6: huaweiv8r10_bfd.HwBfdSessDownTrap
-	(*HwBfdSessReachLimit)(nil),          // 7: huaweiv8r10_bfd.HwBfdSessReachLimit
-	(*HwBfdSessReachLimitBindIf)(nil),    // 8: huaweiv8r10_bfd.HwBfdSessReachLimitBindIf
-	(*HwBfdSessUp)(nil),                  // 9: huaweiv8r10_bfd.HwBfdSessUp
-	(*HwBfdSessUpTrap)(nil),              // 10: huaweiv8r10_bfd.HwBfdSessUpTrap
-	(*HwBfdv6MultiHopSessDownTrap)(nil),  // 11: huaweiv8r10_bfd.HwBfdv6MultiHopSessDownTrap
-	(*HwBfdv6MultiHopSessUpTrap)(nil),    // 12: huaweiv8r10_bfd.HwBfdv6MultiHopSessUpTrap
-	(*HwBfdv6SingleHopSessDownTrap)(nil), // 13: huaweiv8r10_bfd.HwBfdv6SingleHopSessDownTrap
-	(*HwBfdv6SingleHopSessUpTrap)(nil),   // 14: huaweiv8r10_bfd.HwBfdv6SingleHopSessUpTrap
+var file_bfd_r10_proto_msgTypes = make([]protoimpl.MessageInfo, 15)
+var file_bfd_r10_proto_goTypes = []interface{}{
+	(*Bfd)(nil),                          // 0: bfd_r10.Bfd
+	(*HwBfdPWSessDown)(nil),              // 1: bfd_r10.HwBfdPWSessDown
+	(*HwBfdPWSessUp)(nil),                // 2: bfd_r10.HwBfdPWSessUp
+	(*HwBfdSessApOperFailed)(nil),        // 3: bfd_r10.HwBfdSessApOperFailed
+	(*HwBfdSessCfgRemoteFail)(nil),       // 4: bfd_r10.HwBfdSessCfgRemoteFail
+	(*HwBfdSessDown)(nil),                // 5: bfd_r10.HwBfdSessDown
+	(*HwBfdSessDownTrap)(nil),            // 6: bfd_r10.HwBfdSessDownTrap
+	(*HwBfdSessReachLimit)(nil),          // 7: bfd_r10.HwBfdSessReachLimit
+	(*HwBfdSessReachLimitBindIf)(nil),    // 8: bfd_r10.HwBfdSessReachLimitBindIf
+	(*HwBfdSessUp)(nil),                  // 9: bfd_r10.HwBfdSessUp
+	(*HwBfdSessUpTrap)(nil),              // 10: bfd_r10.HwBfdSessUpTrap
+	(*HwBfdv6MultiHopSessDownTrap)(nil),  // 11: bfd_r10.HwBfdv6MultiHopSessDownTrap
+	(*HwBfdv6MultiHopSessUpTrap)(nil),    // 12: bfd_r10.HwBfdv6MultiHopSessUpTrap
+	(*HwBfdv6SingleHopSessDownTrap)(nil), // 13: bfd_r10.HwBfdv6SingleHopSessDownTrap
+	(*HwBfdv6SingleHopSessUpTrap)(nil),   // 14: bfd_r10.HwBfdv6SingleHopSessUpTrap
 }
-var file_huaweiv8r10_bfd_proto_depIdxs = []int32{
+var file_bfd_r10_proto_depIdxs = []int32{
 	0, // [0:0] is the sub-list for method output_type
 	0, // [0:0] is the sub-list for method input_type
 	0, // [0:0] is the sub-list for extension type_name
@@ -1715,13 +1714,13 @@ var file_huaweiv8r10_bfd_proto_depIdxs = []int32{
 	0, // [0:0] is the sub-list for field type_name
 }
 
-func init() { file_huaweiv8r10_bfd_proto_init() }
-func file_huaweiv8r10_bfd_proto_init() {
-	if File_huaweiv8r10_bfd_proto != nil {
+func init() { file_bfd_r10_proto_init() }
+func file_bfd_r10_proto_init() {
+	if File_bfd_r10_proto != nil {
 		return
 	}
 	if !protoimpl.UnsafeEnabled {
-		file_huaweiv8r10_bfd_proto_msgTypes[0].Exporter = func(v interface{}, i int) interface{} {
+		file_bfd_r10_proto_msgTypes[0].Exporter = func(v interface{}, i int) interface{} {
 			switch v := v.(*Bfd); i {
 			case 0:
 				return &v.state
@@ -1733,7 +1732,7 @@ func file_huaweiv8r10_bfd_proto_init() {
 				return nil
 			}
 		}
-		file_huaweiv8r10_bfd_proto_msgTypes[1].Exporter = func(v interface{}, i int) interface{} {
+		file_bfd_r10_proto_msgTypes[1].Exporter = func(v interface{}, i int) interface{} {
 			switch v := v.(*HwBfdPWSessDown); i {
 			case 0:
 				return &v.state
@@ -1745,7 +1744,7 @@ func file_huaweiv8r10_bfd_proto_init() {
 				return nil
 			}
 		}
-		file_huaweiv8r10_bfd_proto_msgTypes[2].Exporter = func(v interface{}, i int) interface{} {
+		file_bfd_r10_proto_msgTypes[2].Exporter = func(v interface{}, i int) interface{} {
 			switch v := v.(*HwBfdPWSessUp); i {
 			case 0:
 				return &v.state
@@ -1757,7 +1756,7 @@ func file_huaweiv8r10_bfd_proto_init() {
 				return nil
 			}
 		}
-		file_huaweiv8r10_bfd_proto_msgTypes[3].Exporter = func(v interface{}, i int) interface{} {
+		file_bfd_r10_proto_msgTypes[3].Exporter = func(v interface{}, i int) interface{} {
 			switch v := v.(*HwBfdSessApOperFailed); i {
 			case 0:
 				return &v.state
@@ -1769,7 +1768,7 @@ func file_huaweiv8r10_bfd_proto_init() {
 				return nil
 			}
 		}
-		file_huaweiv8r10_bfd_proto_msgTypes[4].Exporter = func(v interface{}, i int) interface{} {
+		file_bfd_r10_proto_msgTypes[4].Exporter = func(v interface{}, i int) interface{} {
 			switch v := v.(*HwBfdSessCfgRemoteFail); i {
 			case 0:
 				return &v.state
@@ -1781,7 +1780,7 @@ func file_huaweiv8r10_bfd_proto_init() {
 				return nil
 			}
 		}
-		file_huaweiv8r10_bfd_proto_msgTypes[5].Exporter = func(v interface{}, i int) interface{} {
+		file_bfd_r10_proto_msgTypes[5].Exporter = func(v interface{}, i int) interface{} {
 			switch v := v.(*HwBfdSessDown); i {
 			case 0:
 				return &v.state
@@ -1793,7 +1792,7 @@ func file_huaweiv8r10_bfd_proto_init() {
 				return nil
 			}
 		}
-		file_huaweiv8r10_bfd_proto_msgTypes[6].Exporter = func(v interface{}, i int) interface{} {
+		file_bfd_r10_proto_msgTypes[6].Exporter = func(v interface{}, i int) interface{} {
 			switch v := v.(*HwBfdSessDownTrap); i {
 			case 0:
 				return &v.state
@@ -1805,7 +1804,7 @@ func file_huaweiv8r10_bfd_proto_init() {
 				return nil
 			}
 		}
-		file_huaweiv8r10_bfd_proto_msgTypes[7].Exporter = func(v interface{}, i int) interface{} {
+		file_bfd_r10_proto_msgTypes[7].Exporter = func(v interface{}, i int) interface{} {
 			switch v := v.(*HwBfdSessReachLimit); i {
 			case 0:
 				return &v.state
@@ -1817,7 +1816,7 @@ func file_huaweiv8r10_bfd_proto_init() {
 				return nil
 			}
 		}
-		file_huaweiv8r10_bfd_proto_msgTypes[8].Exporter = func(v interface{}, i int) interface{} {
+		file_bfd_r10_proto_msgTypes[8].Exporter = func(v interface{}, i int) interface{} {
 			switch v := v.(*HwBfdSessReachLimitBindIf); i {
 			case 0:
 				return &v.state
@@ -1829,7 +1828,7 @@ func file_huaweiv8r10_bfd_proto_init() {
 				return nil
 			}
 		}
-		file_huaweiv8r10_bfd_proto_msgTypes[9].Exporter = func(v interface{}, i int) interface{} {
+		file_bfd_r10_proto_msgTypes[9].Exporter = func(v interface{}, i int) interface{} {
 			switch v := v.(*HwBfdSessUp); i {
 			case 0:
 				return &v.state
@@ -1841,7 +1840,7 @@ func file_huaweiv8r10_bfd_proto_init() {
 				return nil
 			}
 		}
-		file_huaweiv8r10_bfd_proto_msgTypes[10].Exporter = func(v interface{}, i int) interface{} {
+		file_bfd_r10_proto_msgTypes[10].Exporter = func(v interface{}, i int) interface{} {
 			switch v := v.(*HwBfdSessUpTrap); i {
 			case 0:
 				return &v.state
@@ -1853,7 +1852,7 @@ func file_huaweiv8r10_bfd_proto_init() {
 				return nil
 			}
 		}
-		file_huaweiv8r10_bfd_proto_msgTypes[11].Exporter = func(v interface{}, i int) interface{} {
+		file_bfd_r10_proto_msgTypes[11].Exporter = func(v interface{}, i int) interface{} {
 			switch v := v.(*HwBfdv6MultiHopSessDownTrap); i {
 			case 0:
 				return &v.state
@@ -1865,7 +1864,7 @@ func file_huaweiv8r10_bfd_proto_init() {
 				return nil
 			}
 		}
-		file_huaweiv8r10_bfd_proto_msgTypes[12].Exporter = func(v interface{}, i int) interface{} {
+		file_bfd_r10_proto_msgTypes[12].Exporter = func(v interface{}, i int) interface{} {
 			switch v := v.(*HwBfdv6MultiHopSessUpTrap); i {
 			case 0:
 				return &v.state
@@ -1877,7 +1876,7 @@ func file_huaweiv8r10_bfd_proto_init() {
 				return nil
 			}
 		}
-		file_huaweiv8r10_bfd_proto_msgTypes[13].Exporter = func(v interface{}, i int) interface{} {
+		file_bfd_r10_proto_msgTypes[13].Exporter = func(v interface{}, i int) interface{} {
 			switch v := v.(*HwBfdv6SingleHopSessDownTrap); i {
 			case 0:
 				return &v.state
@@ -1889,7 +1888,7 @@ func file_huaweiv8r10_bfd_proto_init() {
 				return nil
 			}
 		}
-		file_huaweiv8r10_bfd_proto_msgTypes[14].Exporter = func(v interface{}, i int) interface{} {
+		file_bfd_r10_proto_msgTypes[14].Exporter = func(v interface{}, i int) interface{} {
 			switch v := v.(*HwBfdv6SingleHopSessUpTrap); i {
 			case 0:
 				return &v.state
@@ -1906,18 +1905,18 @@ func file_huaweiv8r10_bfd_proto_init() {
 	out := protoimpl.TypeBuilder{
 		File: protoimpl.DescBuilder{
 			GoPackagePath: reflect.TypeOf(x{}).PkgPath(),
-			RawDescriptor: file_huaweiv8r10_bfd_proto_rawDesc,
+			RawDescriptor: file_bfd_r10_proto_rawDesc,
 			NumEnums:      0,
 			NumMessages:   15,
 			NumExtensions: 0,
 			NumServices:   0,
 		},
-		GoTypes:           file_huaweiv8r10_bfd_proto_goTypes,
-		DependencyIndexes: file_huaweiv8r10_bfd_proto_depIdxs,
-		MessageInfos:      file_huaweiv8r10_bfd_proto_msgTypes,
+		GoTypes:           file_bfd_r10_proto_goTypes,
+		DependencyIndexes: file_bfd_r10_proto_depIdxs,
+		MessageInfos:      file_bfd_r10_proto_msgTypes,
 	}.Build()
-	File_huaweiv8r10_bfd_proto = out.File
-	file_huaweiv8r10_bfd_proto_rawDesc = nil
-	file_huaweiv8r10_bfd_proto_goTypes = nil
-	file_huaweiv8r10_bfd_proto_depIdxs = nil
+	File_bfd_r10_proto = out.File
+	file_bfd_r10_proto_rawDesc = nil
+	file_bfd_r10_proto_goTypes = nil
+	file_bfd_r10_proto_depIdxs = nil
 }
